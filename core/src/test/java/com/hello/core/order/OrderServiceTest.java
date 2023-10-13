@@ -10,8 +10,10 @@ import org.junit.jupiter.api.Test;
 
 public class OrderServiceTest {
 
-    OrderService orderService;
-    MemberService memberService;
+    private OrderService orderService;
+    private MemberService memberService;
+
+
 
     @BeforeEach // 각 테스트 실행 전에 되는 것
     public void beforeEach() {
@@ -33,9 +35,5 @@ public class OrderServiceTest {
 
 //    @Test
 //    void fieldInjectionTest() {
-////        OrderServiceImpl orderService = new OrderServiceImpl();
-////        orderService.createOrder(1L, "itemA", 10000);
-////        orderService.setMemberRepository(new MemoryMemberRepository());
-////        orderService.setDiscountPolicy(new FixDiscountPolicy());
-//    }
+////
 }
