@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d125568-6da7-4f25-affd-d9fa7fc47f35" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpa_basic/hellojpa/RoleType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpa_basic/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpa_basic/hellojpa/JpaMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpa_basic/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpa_basic/hellojpa/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +46,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="jpa_basic.hellojpa" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.JpaMain">
     <configuration name="JpaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jpa_basic.hellojpa.JpaMain" />
@@ -87,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1703947377354</updated>
       <workItem from="1703947378741" duration="4060000" />
-      <workItem from="1703994729153" duration="670000" />
+      <workItem from="1703994729153" duration="4234000" />
     </task>
     <servers />
   </component>
