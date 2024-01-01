@@ -6,3 +6,9 @@
 - Core
   - 스프링 핵심 원리 - 기본편
   - LINK : [김영한님 스프링 핵심 원리 이해1](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%95%B5%EC%8B%AC-%EC%9B%90%EB%A6%AC-%EA%B8%B0%EB%B3%B8%ED%8E%B8)
+- Jpa-basic
+  - 엔티티 매핑
+  - LINK : [김영한님 ORM 표준 JPA프로그래밍](https://www.inflearn.com/course/ORM-JPA-Basic/dashboard)
+- Jpa-shop
+  - 연관관계 매핑
+  - LINK : [김영한님 ORM 표준 JPA프로그래밍](https://www.inflearn.com/course/ORM-JPA-Basic/dashboard)
