@@ -1,6 +1,7 @@
 package jpa_basic.hellojpa;
 
 import javax.persistence.*;
+import java.util.List;
 
 public class JpaMain {
     public static void main(String[] args) {
@@ -17,14 +18,19 @@ public class JpaMain {
 
             Member member = new Member();
             member.setUsername("member1");
-            member.setTeam(team);
-
+            member.setTeam(team); // **
             em.persist(member);
 
-            Member findMember = em.find(Member.class, member.getId());
+//            team.getMembers().add(member); // ** setTeam에 집어넣어준다
+            team.addMember(member);
 
-            Team findTeam = findMember.getTeam();
-            System.out.println("findTeam = " + findTeam.getName());
+            em.flush();
+            em.clear();
+
+            Team findTeam = em.find(Team.class, team.getId());
+            List<Member> members = findTeam.getMembers();
+
+
 
             tx.commit();
         } catch (Exception e) {
