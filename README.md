@@ -9,6 +9,9 @@
 - Jpa-basic
   - 엔티티 매핑
   - LINK : [김영한님 ORM 표준 JPA프로그래밍](https://www.inflearn.com/course/ORM-JPA-Basic/dashboard)
-- Jpa-shop
+- Jpa-shop-orm
   - 연관관계 매핑
   - LINK : [김영한님 ORM 표준 JPA프로그래밍](https://www.inflearn.com/course/ORM-JPA-Basic/dashboard)
+- Jpa-shop
+  - JPA1
+   
