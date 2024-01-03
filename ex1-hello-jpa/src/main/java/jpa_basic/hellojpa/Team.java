@@ -14,6 +14,11 @@ public class Team {
     @OneToMany(mappedBy = "team") // 값을 확인할 수는 있지만 값을 변경할 수는 없다.
     private List<Member> members = new ArrayList<>();
 
+    public void addMember(Member member) {
+        member.setTeam(this);
+        members.add(member);
+    }
+
     public Long getId() {
         return id;
     }
@@ -37,4 +42,13 @@ public class Team {
     public void setMembers(List<Member> members) {
         this.members = members;
     }
+
+//    @Override
+//    public String toString() {
+//        return "Team{" +
+//                "id=" + id +
+//                ", name='" + name + '\'' +
+//                ", members=" + members +
+//                '}';
+//    }
 }

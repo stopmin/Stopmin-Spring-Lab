@@ -40,5 +40,16 @@ public class Member {
 
     public void setTeam(Team team) {
         this.team = team;
+
+        team.getMembers().add(this); // 연관관계 편의
     }
+
+//    @Override
+//    public String toString() {
+//        return "Member{" +
+//                "id=" + id +
+//                ", username='" + username + '\'' +
+//                ", team=" + team +
+//                '}';
+//    }
 }
