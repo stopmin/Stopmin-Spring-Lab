@@ -8,15 +8,17 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-@Entity
+
 @Table(name = "orders")
 @Getter
 @Setter
+@Entity
 public class Order {
     @Id
     @GeneratedValue
     @Column(name = "order_id")
     private Long id;
+
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "member_id")
@@ -30,6 +32,7 @@ public class Order {
     private Delivery delivery;
 
     private LocalDateTime orderDate;
+
 
     @Enumerated(EnumType.STRING)
     private OrderStatus status; // 주문상태 [ORDER, CANCEL]
