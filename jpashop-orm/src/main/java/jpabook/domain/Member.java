@@ -10,10 +10,14 @@ public class Member extends BaseEntity {
     @GeneratedValue
     @Column(name = "MEMBER_ID")
     private Long id;
-    private String name;
+    private String username;
     private String city;
     private String street;
     private String zipcode;
+
+//    @ManyToOne(fetch = FetchType.LAZY)
+//    @JoinColumn
+//    private Team team;
 
     @OneToMany(mappedBy = "member")
     private List<Order> orders = new ArrayList<>();
@@ -26,12 +30,21 @@ public class Member extends BaseEntity {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+
+    public String getUsername() {
+        return username;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public List<Order> getOrders() {
+        return orders;
+    }
+
+    public void setOrders(List<Order> orders) {
+        this.orders = orders;
     }
 
     public String getCity() {
