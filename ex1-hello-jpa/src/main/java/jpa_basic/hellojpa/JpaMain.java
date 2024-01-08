@@ -1,6 +1,7 @@
 package jpa_basic.hellojpa;
 
 import javax.persistence.*;
+import java.time.LocalDateTime;
 
 public class JpaMain {
     public static void main(String[] args) {
@@ -11,13 +12,12 @@ public class JpaMain {
         tx.begin();
 
         try {
-            Movie movie = new Movie();
-            movie.setDirector("aaa");
-            movie.setActor("bbb");
-            movie.setName("바람과 함께 사라지다");
+            Member member = new Member();
+            member.setUsername("user1");
+            member.setCreatedBy("Kim");
+            member.setCreatedDate(LocalDateTime.now());
 
-            movie.setPrice(10000);
-            em.persist(movie);
+            em.persist(member);
 
             em.flush();
             em.clear();

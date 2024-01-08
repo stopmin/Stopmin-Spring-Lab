@@ -1,9 +1,11 @@
 package jpa_basic.hellojpa;
 
 import javax.persistence.*;
+import java.time.LocalDateTime;
 
 @Entity
-public class Member {
+
+public class Member extends BaseEntity {
 
     @Id
     @GeneratedValue
@@ -16,11 +18,12 @@ public class Member {
 
     @ManyToOne
     @JoinColumn(name = "TEAM_ID")
-     private Team team;
+    private Team team;
 
     @OneToOne
     @JoinTable(name = "LOCKER_ID")
     private Locker locker;
+
 
     public Long getId() {
         return id;
