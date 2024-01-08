@@ -5,28 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d125568-6da7-4f25-affd-d9fa7fc47f35" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpa_basic/hellojpa/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpa_basic/hellojpa/AddressEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpa_basic/hellojpa/Period.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jpashop/.gradle/8.5/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jpashop/.gradle/8.5/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jpashop/.gradle/8.5/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jpashop/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jpashop/.gradle/8.5/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jpashop/.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jpashop/.gradle/8.5/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jpashop/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jpashop/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jpashop/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jpashop/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jpashop/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jpashop/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop-orm/src/main/java/jpabook/domain/Address.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpa_basic/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpa_basic/hellojpa/JpaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpa_basic/hellojpa/Locker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpa_basic/hellojpa/Locker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpa_basic/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpa_basic/hellojpa/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpa_basic/hellojpa/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpa_basic/hellojpa/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jpashop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jpashop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jpashop-orm/src/main/java/jpabook/domain/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jpashop-orm/src/main/java/jpabook/domain/Delivery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jpashop-orm/src/main/java/jpabook/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jpashop-orm/src/main/java/jpabook/domain/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
