@@ -5,18 +5,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-public class Team {
+public class Team extends BaseEntity {
     @Id
     @GeneratedValue
     @Column(name = "TEAM_ID")
     private Long id;
     private String name;
-    @OneToMany(mappedBy = "team") // 값을 확인할 수는 있지만 값을 변경할 수는 없다.
-    private List<Member> members = new ArrayList<>();
+//    @OneToMany(mappedBy = "team") // 값을 확인할 수는 있지만 값을 변경할 수는 없다.
+//    private List<Member> members = new ArrayList<>();
 
     public void addMember(Member member) {
-        member.setTeam(this);
-        members.add(member);
+//        member.setTeam(this);
+//        members.add(member);
     }
 
     public Long getId() {
@@ -35,13 +35,13 @@ public class Team {
         this.name = name;
     }
 
-    public List<Member> getMembers() {
-        return members;
-    }
-
-    public void setMembers(List<Member> members) {
-        this.members = members;
-    }
+//    public List<Member> getMembers() {
+//        return members;
+//    }
+//
+//    public void setMembers(List<Member> members) {
+//        this.members = members;
+//    }
 
 //    @Override
 //    public String toString() {

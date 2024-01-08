@@ -1,8 +1,7 @@
 package jpabook;
 
 
-import jpabook.domain.Order;
-import jpabook.domain.OrderItem;
+import jpabook.domain.*;
 
 import javax.persistence.*;
 import java.util.List;
@@ -16,10 +15,21 @@ public class JpaMain {
         tx.begin();
 
         try {
-            Order order = new Order();
-            order.addOrderItem(new OrderItem());
+            Member member = new Member();
+            member.setUsername("hello");
+
+            em.persist(member);
+
+            em.flush();
+            em.clear();
+
+            //
+            Member findMember = em.getReference(Member.class, member.getId());
+            System.out.println("findMember. = " + findMember.getClass());
+            System.out.println("findMember. = " + findMember.getUsername());
 
             tx.commit();
+
         } catch (Exception e) {
             tx.rollback();
         } finally {
