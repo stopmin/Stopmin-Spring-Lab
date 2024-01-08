@@ -16,7 +16,7 @@ public class Member {
 
     @ManyToOne
     @JoinColumn(name = "TEAM_ID")
-    private Team team;
+     private Team team;
 
     @OneToOne
     @JoinTable(name = "LOCKER_ID")

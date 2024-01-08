@@ -12,7 +12,7 @@ public class Team {
     private Long id;
     private String name;
     @OneToMany(mappedBy = "team") // 값을 확인할 수는 있지만 값을 변경할 수는 없다.
-    @JoinTable(name = "TEAM_ID")
+//    @JoinTable(name = "TEAM_ID")
     private List<Member> members = new ArrayList<>();
 
     public void addMember(Member member) {
