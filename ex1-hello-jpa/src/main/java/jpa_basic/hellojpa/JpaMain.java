@@ -41,7 +41,6 @@ public class JpaMain {
             findMember.getAddressHistory().remove(new AddressEntity("old1", "street", "10000"));
             findMember.getAddressHistory().add(new AddressEntity("newCity1", "street", "10000"));
 
-ㅜ
 
             tx.commit();
         } catch (Exception e) {
