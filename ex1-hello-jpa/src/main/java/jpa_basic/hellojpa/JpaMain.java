@@ -1,9 +1,6 @@
 package jpa_basic.hellojpa;
 
-import org.hibernate.jdbc.Work;
-
 import javax.persistence.*;
-import java.time.LocalDateTime;
 
 public class JpaMain {
     public static void main(String[] args) {
@@ -15,7 +12,7 @@ public class JpaMain {
 
         try {
             Member member = new Member();
-            member.setUsername("member1");
+            member.setUsername("kim");
             member.setHomeAddress(new Address("homeCity", "street", "10000"));
 
             member.getFavoriteFoods().add("치킨");
@@ -43,13 +40,15 @@ public class JpaMain {
 //            System.out.println("==============start==============");
             findMember.getAddressHistory().remove(new AddressEntity("old1", "street", "10000"));
             findMember.getAddressHistory().add(new AddressEntity("newCity1", "street", "10000"));
+
+ㅜ
+
             tx.commit();
         } catch (Exception e) {
             tx.rollback();
         } finally {
             em.close();
         }
-
 
         // Closing EntityManagerFactory
         emf.close();
