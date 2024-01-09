@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77eec211-ff67-4899-a240-fa44e6406339" name="Changes" comment="" />
+    <list default="true" id="77eec211-ff67-4899-a240-fa44e6406339" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../ex1-hello-jpa/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex1-hello-jpa/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1-hello-jpa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex1-hello-jpa/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1-hello-jpa/src/main/java/jpa_basic/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex1-hello-jpa/src/main/java/jpa_basic/hellojpa/JpaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jpashop-orm/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jpashop-orm/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -261,6 +268,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-f644763e9732-203781b8" />
         <option value="jdk-18.0.2-corretto-18.0.2-f644763e9732-56b8144a" />
       </set>
     </attachedChunks>
@@ -281,6 +289,7 @@
       <workItem from="1704521832955" duration="1440000" />
       <workItem from="1704634772441" duration="9914000" />
       <workItem from="1704671384518" duration="1058000" />
+      <workItem from="1704760252148" duration="604000" />
     </task>
     <servers />
   </component>
