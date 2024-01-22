@@ -1,5 +1,6 @@
 package jpabook.jpashop.repository.order.query;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jpabook.jpashop.domain.Address;
 import jpabook.jpashop.domain.OrderStatus;
 import lombok.Data;
@@ -9,6 +10,7 @@ import java.util.List;
 
 @Data
 public class OrderItemQueryDto {
+    @JsonIgnore
     private Long orderId;
     private String itemName;
     private int orderPrice;
