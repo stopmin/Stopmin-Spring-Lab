@@ -24,3 +24,9 @@ servlet/settings.gradle
 .DS_Store
 
 servlet/gradlew
+
+core/settings.gradle
+
+core/gradlew
+
+core/gradlew.bat
