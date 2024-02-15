@@ -30,3 +30,5 @@ core/settings.gradle
 core/gradlew
 
 core/gradlew.bat
+
+.idea/workspace.xml
