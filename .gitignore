@@ -32,3 +32,13 @@ core/gradlew
 core/gradlew.bat
 
 .idea/workspace.xml
+
+querydsl/gradlew.bat
+
+querydsl/gradlew
+
+querydsl/settings.gradle
+
+querydsl/gradle/wrapper/gradle-wrapper.jar
+
+querydsl/gradle/wrapper/gradle-wrapper.properties
