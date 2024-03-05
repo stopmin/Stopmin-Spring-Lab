@@ -1,4 +1,4 @@
-# Stopmin-Java-Lab
+# Stopmin-Spring-Lab
 🌱Stopmin의 Spring boot 및 Java 실험소🌱
 - Demo
   - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술
