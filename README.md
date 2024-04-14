@@ -14,4 +14,9 @@
   - LINK : [김영한님 ORM 표준 JPA프로그래밍](https://www.inflearn.com/course/ORM-JPA-Basic/dashboard)
 - Jpa-shop
   - JPA1
-   
+- QueryDSL
+  - 실전 QueryDSL
+  - LINK: [김영한님 QueryDSL 강의](https://www.inflearn.com/course/querydsl-%EC%8B%A4%EC%A0%84)
+- servlet
+  - 백엔드 핵심 웹 개발 기술
+  -  - LINK: [김영한님 Spring MVC 1편](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-mvc-1/dashboard)
