@@ -1,5 +1,76 @@
+# Java 관련
+*.class
+*.jar
+*.war
+*.ear
+
+# 배포 파일
+*.log
+*.tmp
+
+# 운영체제 관련
 .DS_Store
-.idea
-.gradle
-.build
-out
+Thumbs.db
+
+# IDE 관련
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+### Eclipse ###
+.project
+.classpath
+.settings/
+bin/
+target/
+
+### VS Code ###
+.vscode/
+
+# Gradle 관련
+.gradle/
+build/
+
+# Maven 관련
+.mvn/
+target/
+dependency-reduced-pom.xml
+release.properties
+
+# 스프링 부트 관련
+spring.log
+
+# 환경 설정 파일 (보안상의 이유로 제외)
+application.properties
+application.yml
+application-*.properties
+application-*.yml
+
+# 테스트 리포트
+test-output/
+
+# 컴파일러 관련
+*.sublime-workspace
+*.sublime-project
+
+# Mac 관련
+*.DS_Store
+
+# Node 관련 (만약 프로젝트에 node가 있을 경우)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDE 특정 설정 파일들 무시
+*.vscode/
+*.idea/
+*.classpath
+*.project
+*.settings/
+
+# 특정 프로젝트 폴더 무시 (개별 프로젝트 폴더에 대해 추가하고 싶을 경우)
+project1/build/
+project2/build/
