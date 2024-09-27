@@ -66,8 +66,14 @@ public class BasicItemController {
 //        return "basic/item";
 //    }
 
+//    @PostMapping("/add")
+//    public String addItemV4(Item item) {
+//        itemRepository.save(item);
+//        return "basic/item";
+//    }
+
     @PostMapping("/add")
-    public String addItemV4(Item item) {
+    public String addItemV5(Item item) {
         itemRepository.save(item);
         return "basic/item";
     }
@@ -81,9 +87,8 @@ public class BasicItemController {
 
     @PostMapping("/{itemId}/edit")
     public String edit(@PathVariable Long itemId, Model model) {
-//        Item item = itemRepository.findById(itemId);
-//        model.addAttribute("item", item);
-        return "redirect:/basic/items/{itemId}";
+        Item item = itemRepository.findById(itemId);
+        return "redirect:/basic/items/" + item.getId();
     }
 
     @PostConstruct
